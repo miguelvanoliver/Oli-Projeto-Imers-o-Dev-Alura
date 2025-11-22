@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLI - Growth Intelligence</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo-area">
+                <span class="logo-text">OLI</span>
+            </div>
+            <nav>
+                <a href="#dores">Realidade</a>
+                <a href="#gems">Gems</a>
+                <a href="https://migueloliver.com.br/consultoria" class="btn-nav" target="_blank">Consultoria</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <span class="badge">IA Estratégica para B2B</span>
+            <h1>Sua empresa tem dados.<br>Falta <span class="highlight">Inteligência.</span></h1>
+            <p class="hero-subtitle">Pare de brincar com prompts. Transformamos o hype da IA em processos de vendas e lucro real.</p>
+            
+            <div class="search-box-container">
+                <div class="input-wrapper">
+                    <svg class="search-icon-left" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                    <input type="text" id="campo-pesquisa" placeholder="Qual o gargalo da sua empresa? (Ex: vendas, atendimento...)">
+                    <button id="btn-pesquisar" onclick="pesquisar()" aria-label="Pesquisar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resultados-container" class="container hidden">
+        <div class="section-header">
+            <h2>Seu Plano de Ação</h2>
+            <p>Diagnóstico gerado com base na metodologia OLI.</p>
+        </div>
+        <div id="resultados-pesquisa" class="grid-resultados">
+            </div>
+    </section>
+
+    <section id="dores" class="container dores-section">
+        <div class="dores-header">
+            <span class="tag-alert">Realidade de Mercado</span>
+            <h2>O abismo entre "Ter IA"<br>e <span class="text-gradient">Lucrar com IA.</span></h2>
+            <p>Assinar planos Enterprise é fácil. O difícil é impedir que ele se torne apenas uma "calculadora de textos" que custa caro e não entrega ROI.</p>
+        </div>
+        
+        <div class="grid-dores">
+            <div class="card-dor">
+                <div class="dor-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg>
+                </div>
+                <h3>A "IA de Brinquedo"</h3>
+                <p>Sua equipe usa IA para criar e-mails engraçadinhos, mas <strong>zero impacto</strong> no CAC ou LTV.</p>
+            </div>
+
+            <div class="card-dor">
+                <div class="dor-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="7" x="14" y="3" rx="1"/><path d="M10 21V8a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2Z"/><path d="m22 14-4 7"/></svg>
+                </div>
+                <h3>Frankenstein de Dados</h3>
+                <p>O Marketing olha o Analytics. Vendas olha o CRM. Ninguém olha para o lucro real.</p>
+            </div>
+
+            <div class="card-dor">
+                <div class="dor-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>
+                </div>
+                <h3>"Engenharia de Palpite"</h3>
+                <p>Sem Engenharia de Prompt profissional, você recebe respostas genéricas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gems" class="container gems-section">
+        <div class="gems-header">
+            <span class="tag-neon">Tecnologia OLI</span>
+            <h2>Instale um Cérebro Digital</h2>
+            <p>Selecione um especialista abaixo e receba o <strong>Kit de Treinamento Completo</strong>.</p>
+        </div>
+
+        <div class="gems-nav">
+            <button class="btn-gem" onclick="carregarGem('growth')">
+                <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 7-7 7 7"/><path d="M12 19V5"/></svg>
+                Oli Growth
+            </button>
+            <button class="btn-gem" onclick="carregarGem('sales')">
+                <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                Oli Sales
+            </button>
+            <button class="btn-gem" onclick="carregarGem('support')">
+                <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v5Z"/><path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1"/></svg>
+                Oli Support
+            </button>
+            <button class="btn-gem" onclick="carregarGem('data')">
+                <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+                Oli Analytics
+            </button>
+        </div>
+
+        <div id="gem-display" class="gem-display-area hidden">
+            <div class="gem-header-display">
+                <div class="gem-icon-large" id="gem-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l4 6-10 13L2 9Z"/><path d="M11 3 8 9l4 13 4-13-3-6"/><path d="M2 9h20"/></svg>
+                </div>
+                <div>
+                    <h3 id="gem-title">Selecione um Gem</h3>
+                    <p id="gem-desc">O código aparecerá aqui.</p>
+                </div>
+            </div>
+
+            <div class="gem-grid-details">
+                <div class="gem-col-prompt">
+                    <div class="label-area">
+                        <span class="label-prompt">1. INSTRUÇÕES</span>
+                        <button class="btn-copy-small" onclick="copiarGemPrompt()">Copiar Prompt</button>
+                    </div>
+                    <div class="code-block" id="gem-system-prompt"></div>
+                </div>
+                <div class="gem-col-info">
+                    <div class="info-box">
+                        <h4>2. Base de Conhecimento (RAG)</h4>
+                        <p id="gem-rag"></p>
+                    </div>
+                    <div class="info-box">
+                        <h4>3. Capacidades & Ferramentas</h4>
+                        <p id="gem-tools"></p>
+                    </div>
+                    <div class="info-box alert-box">
+                        <h4>⚠️ Regras de Ouro</h4>
+                        <p id="gem-rules"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-top">
+                <p>&copy; 2025 OLI - Oportunidade, Linguagem e Inteligência.</p>
+                <div class="social-area">
+                    <a href="https://migueloliver.com.br/" target="_blank" class="btn-social">Site Oficial</a>
+                    <a href="https://www.linkedin.com/in/oliveira-miguel-digital-marketing" target="_blank" class="btn-social">LinkedIn</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <span class="alura-tag">Projeto Imersão Dev Alura</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "sintoma": "Vendas estagnadas ou funil travado",
+    "diagnostico": "Cegueira de Funil. Você tem dados, mas não sabe onde o cliente desiste.",
+    "solucao": "Auditoria de Funil com IA",
+    "plano_acao": "1. Exporte seus dados do CRM. 2. Use nosso algoritmo para identificar a etapa de maior churn. 3. Ajuste a oferta nessa etapa específica.",
+    "prompt_gem": "Atue como um Diretor Comercial Sênior. Analise os seguintes dados de conversão do meu funil [COLAR DADOS]. Identifique o maior gargalo e sugira 3 hipóteses de teste A/B para melhorar a conversão em 15% em 30 dias.",
+    "tags": "vendas baixas, funil, crm, comercial, receita, leads, conversão, não vende"
+  },
+  {
+    "id": 2,
+    "sintoma": "Atendimento lento ou suporte sobrecarregado",
+    "diagnostico": "Fadiga Operacional. Sua equipe humana está respondendo perguntas repetitivas.",
+    "solucao": "Agentes Autônomos (Oli Tech)",
+    "plano_acao": "1. Mapeie as 10 perguntas mais frequentes (FAQ). 2. Treine um Gem simples com essas respostas. 3. Integre ao WhatsApp Business.",
+    "prompt_gem": "Você é o Oli Tech, um especialista em suporte empático. Sua missão é responder dúvidas de clientes com tom amigável e resolutivo. Use esta base de conhecimento [COLAR FAQ] e nunca invente informações. Se não souber, encaminhe para um humano.",
+    "tags": "atendimento, suporte, whatsapp, demora, chat, bot, sac, cliente reclamando, lento"
+  },
+  {
+    "id": 3,
+    "sintoma": "Marketing gastando muito sem retorno (ROI baixo)",
+    "diagnostico": "Desperdício de Tráfego. Você está pagando para mostrar anúncios para quem não vai comprar.",
+    "solucao": "Otimização de Tráfego com Dados",
+    "plano_acao": "1. Pare campanhas com CTR abaixo de 1%. 2. Use IA para criar públicos semelhantes (Lookalikes) baseados nos seus melhores clientes (LTV alto).",
+    "prompt_gem": "Atue como um Gestor de Tráfego Pago. Analise estas métricas [COLAR MÉTRICAS: CTR, CPC, ROAS]. Identifique quais criativos estão drenando o orçamento e sugira 5 novos ângulos de copy baseados na dor do cliente [INSERIR DOR].",
+    "tags": "marketing, ads, tráfego, facebook, google, dinheiro, prejuízo, roas, roi, caro"
+  },
+  {
+    "id": 4,
+    "sintoma": "Equipe perdida ou sem processos definidos",
+    "diagnostico": "Caos Organizacional. Falta de playbooks claros para a execução.",
+    "solucao": "Consultoria de Processos e IA",
+    "plano_acao": "1. Documente o processo atual. 2. Identifique tarefas manuais repetitivas. 3. Automatize com scripts ou IA.",
+    "prompt_gem": "Você é um Especialista em Processos Ágeis. Transforme esta descrição solta de tarefas [COLAR TEXTO] em um Playbook passo-a-passo, profissional e formatado para novos funcionários, incluindo critérios de sucesso para cada etapa.",
+    "tags": "bagunça, processos, equipe, gestão, liderança, organização, manual, desorganizado"
+  },
+  {
+    "id": 5,
+    "sintoma": "Empresa cheia de ferramentas mas sem resultados",
+    "diagnostico": "Paralisia Tecnológica. Você contratou softwares, mas não tem estratégia.",
+    "solucao": "Arquitetura de Growth OLI",
+    "plano_acao": "1. Audite suas assinaturas de software. 2. Cancele o que não gera ROI direto. 3. Centralize os dados em um Dashboard único.",
+    "prompt_gem": "Atue como um CTO (Chief Technology Officer). Analise esta lista de ferramentas que pagamos hoje [LISTA]. Quais são redundantes? Como podemos integrar os dados da ferramenta A com a B para ter uma visão unificada do cliente?",
+    "tags": "ferramentas, software, tecnologia, custo, assinatura, complexo, difícil"
+  },
+  {
+    "id": 5678912,
+    "sintoma": "Minha equipe gasta horas inserindo dados manualmente em planilhas e sistemas distintos, resultando em retrabalho e inconsistências.",
+    "diagnostico": "Fragmentação de Dados Operacionais e Latência na Sincronização.",
+    "solucao": "Automação Robótica de Processos (RPA) para Integração de Dados.",
+    "plano_acao": "1. Mapeamento de Pontos de Contato de Dados Manuais. 2. Desenvolvimento e Implementação de Bots RPA. 3. Monitoramento de ROI sobre Tempo e Precisão dos Dados.",
+    "prompt_gem": "Você é um especialista em otimização de processos B2B com foco em RPA e integração de dados. Sua tarefa é guiar um gerente de operações na identificação de gargalos manuais, na priorização de processos para automação via RPA, e na estimativa de ganhos de eficiência. Forneça frameworks para mapeamento de processos (BPMN simplificado), critérios de seleção de ferramentas RPA, e métricas para acompanhar o ROI da automação (tempo economizado, redução de erros, custo-benefício). Evite jargões desnecessários, seja prático e orientado a resultados. Foco em sistemas CRM, ERP e planilhas legadas.",
+    "tags": "retrabalho, erros, tempo perdido, dados desencontrados, burocracia"
+  },
+  {
+    "id": 1234567,
+    "sintoma": "Muitos leads chegam ao pipeline de vendas, mas poucos se convertem em clientes pagantes, sem clareza sobre onde o funil está falhando.",
+    "diagnostico": "Baixa Eficiência do Funil de Vendas e Desqualificação Predominante.",
+    "solucao": "Otimização do Funil de Vendas com Análise Preditiva e Scoring de Leads.",
+    "plano_acao": "1. Auditoria de Pontos de Desengajamento no Funil. 2. Implementação de Modelo de Scoring de Leads com Machine Learning. 3. Treinamento da equipe de vendas em abordagem baseada em score.",
+    "prompt_gem": "Atue como um estrategista de otimização de vendas B2B, com expertise em funis de conversão e modelos preditivos. Auxilie um diretor comercial a identificar as etapas de maior abandono no seu funil de vendas, a construir um conjunto de variáveis para scoring de leads (demográficas, comportamentais, engagement), e a definir benchmarks de conversão para cada estágio. Foque em dados de CRM e ferramentas de automação de marketing. Proponha ações táticas para cada etapa do funil baseadas nos insights dos dados, visando maximizar o ROI da equipe de vendas.",
+    "tags": "venda travada, leads frios, funil entupido, equipe não fecha, meta não bate"
+  },
+  {
+    "id": 9876543,
+    "sintoma": "Investimento crescente em marketing digital, mas o custo por aquisição de cliente (CAC) continua alto, e o retorno sobre o investimento (ROI) é difícil de quantificar.",
+    "diagnostico": "Alocação Subótima de Orçamento de Marketing e Atribuição Imprecisa.",
+    "solucao": "Atribuição Multicanal com Machine Learning e Otimização de Budget.",
+    "plano_acao": "1. Unificação de Dados de Marketing de Todas as Fontes. 2. Aplicação de Modelos de Atribuição Preditiva para CAC. 3. Ajuste Dinâmico de Investimento com base em ROI Marginal.",
+    "prompt_gem": "Você é um Diretor de Growth Marketing especializado em otimização de orçamento e atribuição de marketing para B2B. Sua função é guiar um CMO na análise do seu custo de aquisição de cliente (CAC) e na identificação de canais ineficientes. Ajude a estruturar um framework de atribuição multicanal (e.g., Shapley, Markov Chains), a definir KPIs acionáveis (LTV/CAC, ROAS), e a propor estratégias para otimizar o gasto em campanhas digitais (Google Ads, LinkedIn Ads, Conteúdo). Exija dados de investimento, impressões, cliques e conversões para cada canal e período.",
+    "tags": "marketing caro, campanha não rende, dinheiro indo embora, sem retorno, anúncio sem efeito"
+  },
+  {
+    "id": 2468135,
+    "sintoma": "Decisões estratégicas baseadas em intuição, pois os dados estão espalhados em sistemas díspares, dificultando a visão unificada e insights acionáveis.",
+    "diagnostico": "Fragmentação de Dados Corporativos e Governança Deficitária.",
+    "solucao": "Plataforma de Dados Unificada (CDP/Data Lake) com Dashboards Preditivos.",
+    "plano_acao": "1. Inventário e Mapeamento de Fontes de Dados Existentes. 2. Construção de um Data Lake/Warehouse Centralizado. 3. Desenvolvimento de Dashboards de BI e Alertas Preditivos.",
+    "prompt_gem": "Assuma o papel de um Arquiteto de Dados e Estrategista de BI para empresas B2B. Oriente um CEO ou Diretor de Operações na superação da fragmentação de dados. Ajude a identificar as fontes de dados mais críticas (CRM, ERP, Marketing Automation, Financeiro), a definir uma arquitetura de dados simplificada (data lake vs. data warehouse), e a priorizar os insights de negócios que um dashboard unificado deveria oferecer. Foco em KPIs estratégicos para diferentes departamentos e na governança de dados para garantir qualidade e acessibilidade. Explique os benefícios em termos de agilidade na tomada de decisão e ROI.",
+    "tags": "não sei onde está o dado, decisões no escuro, falta informação, dados bagunça, relatórios conflitantes"
+  },
+  {
+    "id": 7531908,
+    "sintoma": "A equipe demonstra baixa produtividade, com sobrecarga em certas áreas e ociosidade em outras, resultando em insatisfação e alta rotatividade.",
+    "diagnostico": "Desalinhamento de Capacidade da Equipe e Alocação de Recursos Subótima.",
+    "solucao": "Otimização de Carga de Trabalho com IA e Análise de Performance Preditiva.",
+    "plano_acao": "1. Mapeamento de Tarefas e Habilidades da Equipe. 2. Implementação de Ferramenta de Alocação Otimizada de Recursos via IA. 3. Monitoramento de Produtividade e Prevenção Preditiva de Burnout/Churn.",
+    "prompt_gem": "Você é um consultor de gestão de talentos e otimização de equipes com foco em IA para B2B. Sua tarefa é auxiliar um gerente de RH ou líder de equipe a identificar ineficiências na alocação de tarefas e a prever riscos de burnout ou rotatividade. Ajude a definir métricas de produtividade relevantes (ex: tarefas concluídas, tempo por tarefa, utilização de capacidade), a estruturar um sistema para coletar esses dados, e a explorar como algoritmos de IA podem otimizar a distribuição de trabalho e identificar padrões de desempenho. Foque em melhorar a satisfação da equipe e a retenção de talentos através de uma gestão de carga de trabalho mais inteligente.",
+    "tags": "equipe sobrecarregada, gente sem fazer nada, alta rotatividade, produtividade baixa, clima ruim"
+  },
+  {
+    "id": 4019283,
+    "sintoma": "O processamento manual de faturas, conciliação bancária e auditoria fiscal consome tempo excessivo da equipe financeira, atrasando o fechamento mensal e aumentando riscos de erro.",
+    "diagnostico": "Ineficiência Operacional Financeira e Risco de Erro Humano.",
+    "solucao": "Automação Inteligente de Processos Financeiros (IPA) com OCR e Machine Learning.",
+    "plano_acao": "1. Análise de Fluxos de Trabalho Financeiros (AP/AR). 2. Implementação de Solução de OCR e IA para Processamento de Documentos. 3. Integração com ERP e Sistema Bancário para Conciliação Automatizada.",
+    "prompt_gem": "Atue como um especialista em automação financeira B2B, com profundo conhecimento em OCR, Machine Learning e RPA para a área contábil. Sua missão é guiar um CFO ou gerente financeiro na otimização de fluxos de trabalho como processamento de faturas (contas a pagar/receber) e conciliação bancária. Ajude a mapear os pontos de fricção, a avaliar a viabilidade de soluções de automação inteligente (IA para extração de dados de documentos, RPA para lançamentos), e a quantificar o impacto no tempo de fechamento, redução de erros e conformidade. Exija detalhes dos sistemas financeiros atuais (ERP, bancos).",
+    "tags": "contas atrasadas, erros financeiros, fechamento demorado, burocracia no financeiro, dinheiro parado"
+  },
+  {
+    "id": 6153749,
+    "sintoma": "A empresa consegue adquirir novos clientes, mas a taxa de retenção é baixa, e muitos clientes descontinuam o serviço ou produto após um período, sem que a causa seja clara.",
+    "diagnostico": "Alta Taxa de Churn e Baixa Predição de Desengajamento.",
+    "solucao": "Modelo Preditivo de Churn com IA e Estratégias de Retenção Personalizadas.",
+    "plano_acao": "1. Análise de Dados Históricos de Clientes (uso, suporte, interações). 2. Construção de Modelo de IA para Previsão de Churn. 3. Desenvolvimento de Ações Proativas de Retenção baseadas nas previsões.",
+    "prompt_gem": "Você é um Diretor de Customer Success e cientista de dados especializado em retenção B2B. Guie um Head de CS ou CEO a identificar e mitigar a evasão de clientes (churn). Ajude a coletar e analisar dados de engajamento do cliente (uso do produto, tickets de suporte, feedback, pagamentos), a construir variáveis para um modelo preditivo de churn e a definir 'red flags' acionáveis. Proponha estratégias de intervenção personalizadas (ofertas, suporte proativo, treinamento) para clientes em risco, com base nas probabilidades de churn. Foco no ROI da retenção vs. aquisição.",
+    "tags": "cliente sumindo, contrato cancelando, cliente insatisfeito, base encolhendo, gente parando de usar"
+  },
+  {
+    "id": 8890123,
+    "sintoma": "As campanhas de marketing são genéricas e não ressoam com os diferentes segmentos de público, resultando em baixas taxas de engajamento e conversão, apesar do alto investimento.",
+    "diagnostico": "Segmentação de Marketing Subótima e Falta de Personalização em Escala.",
+    "solucao": "Personalização de Conteúdo e Ofertas com IA e Segmentação Dinâmica.",
+    "plano_acao": "1. Análise de Dados Demográficos e Comportamentais dos Prospects. 2. Criação de Segmentos de Público Dinâmicos com Machine Learning. 3. Implementação de Engine de Recomendação de Conteúdo/Oferta.",
+    "prompt_gem": "Você é um especialista em marketing de personalização e automação com IA para B2B. Sua função é auxiliar um gerente de marketing a superar a barreira de campanhas genéricas. Guie-o na coleta de dados relevantes para segmentação (comportamento no site, histórico de email, interações em redes sociais, dados de CRM), na criação de personas dinâmicas com base em clusters de dados, e na elaboração de estratégias para personalizar mensagens, conteúdos e ofertas em escala. Enfatize como a personalização aumenta o engajamento, a taxa de conversão e otimiza o gasto de marketing.",
+    "tags": "marketing que não atinge, mensagem errada, público não engaja, comunicação fraca, campanha sem impacto"
+  },
+  {
+    "id": 3456789,
+    "sintoma": "A empresa precifica seus produtos ou serviços com base em estimativas ou preços da concorrência, sem dados concretos sobre a sensibilidade do cliente ou o valor percebido, resultando em perda de margem ou volume.",
+    "diagnostico": "Estratégia de Precificação Baseada em Intuição e Sem Otimização de Receita.",
+    "solucao": "Otimização de Preços Dinâmica com Análise de Elasticidade e IA.",
+    "plano_acao": "1. Coleta de Dados de Vendas, Custos e Concorrência. 2. Construção de Modelo Preditivo de Elasticidade de Preço e Valor Percebido. 3. Testes A/B de Preços e Implementação de Estratégias Dinâmicas.",
+    "prompt_gem": "Você é um cientista de dados e estrategista de pricing para B2B, com foco em maximização de receita e margem. Guie um CEO ou Diretor Financeiro na transição de uma precificação baseada em intuição para uma estratégia orientada por dados. Ajude a identificar os dados necessários (custos, históricos de vendas, preços de concorrência, feedbacks de clientes), a entender o conceito de elasticidade de preço, e a explorar como modelos de IA podem sugerir preços ótimos para diferentes segmentos de clientes ou condições de mercado. Enfatize o impacto direto na receita e lucratividade.",
+    "tags": "preço errado, dinheiro na mesa, lucro baixo, concorrência roubando cliente, não sei quanto cobrar"
+  },
+  {
+    "id": 7890123,
+    "sintoma": "Novos colaboradores demoram a atingir plena produtividade devido a processos de onboarding desorganizados e falta de acesso rápido a informações e treinamentos relevantes.",
+    "diagnostico": "Onboarding Ineficiente e Larga Curva de Aprendizagem.",
+    "solucao": "Plataforma de Onboarding Inteligente com IA e Trilhas de Aprendizagem Adaptativas.",
+    "plano_acao": "1. Mapeamento de Conteúdos e Processos Atuais de Onboarding. 2. Implementação de Plataforma com IA para Personalização de Treinamentos. 3. Monitoramento de Performance e Feedback para Otimização Contínua.",
+    "prompt_gem": "Atue como um especialista em People Analytics e Design Instrucional com IA para otimização de onboarding B2B. Sua missão é ajudar um Diretor de RH ou Gerente de Treinamento a reduzir o tempo para novos colaboradores atingirem a proficiência. Guie-o na identificação dos módulos de treinamento críticos, na coleta de dados sobre a performance de onboarding (tempo para primeira venda, utilização de ferramentas, feedback), e na concepção de um sistema de onboarding inteligente que use IA para personalizar trilhas de aprendizado e recomendar recursos com base no perfil e progresso do indivíduo. Foco em aceleração da produtividade e retenção inicial.",
+    "tags": "gente nova perdida, muito tempo para aprender, onboarding ruim, equipe lenta, sem treinamento"
+  }
+]
