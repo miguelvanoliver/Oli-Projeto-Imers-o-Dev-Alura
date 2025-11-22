@@ -62,6 +62,9 @@ Decidi seguir o caminho do "Code Craftsmanship". Sem frameworks pesados, apenas 
 * **JavaScript (Vanilla):** Lógica de busca e injeção dinâmica de componentes.
 * **Ícones SVG:** Vetores personalizados integrados via código.
 
+*"A IA não substitui a estratégia. Ela escala a estratégia."*
+
+Desenvolvido com 💙 por **Miguel Oliveira**.
 ---
 
 
